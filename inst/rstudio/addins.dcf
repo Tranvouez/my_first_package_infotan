@@ -1,0 +1,5 @@
+Name: GET_NEXT_TRANSPORT_addin
+Description: Cet addin permet d'appeller la fonction get_next_transport de la librairie tan.
+Binding: get_next_transport_addin
+Interactive: TRUE
+

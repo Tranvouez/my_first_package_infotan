@@ -1,0 +1,35 @@
+Package: infotan
+Title: Données en temps réel des transports nantais
+Version: 0.0.0.9000
+Authors@R: 
+    person("Benoit-Alexandre", "Tranvouez", , "benoit-alexandre.tranvouez@etu.univ-nantes.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Le package récupère les données de la tan en temps réel pour 
+ permettre aux utilisateurs d'appeller la fonction get_waiting time qui leur permet 
+ d'obtenir ces information en tapant le nom d'un arrêt. 
+ Dans cette librairie vous trouverez une base de données nommée arrêts_tan qui 
+ retranscrit la liste des arrêts de la tan.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10), 
+    stringdist, 
+    jsonlite, 
+    rstudioapi (>= 0.4), 
+    shiny (>= 0.13), 
+    miniUI (>= 0.1.1), 
+    tuneR
+Imports: 
+    stringdist, 
+    jsonlite, 
+    rstudioapi (>= 0.4), 
+    shiny (>= 0.13), 
+    miniUI (>= 0.1.1), 
+    tuneR
+LazyData: true
+
